@@ -1,0 +1,166 @@
+
+/**** #banner ****/
+#banner {
+	height: 400px;
+	overflow: hidden;
+	background: url('../images/banner.jpg') right bottom no-repeat #fff;
+	border-bottom: 1px solid #ebebeb;
+}
+
+#banner h1 {
+	font: normal 40px/50px OpenSansLight, Helvetica, arial;
+	display: block;
+	width: 360px;
+	margin: 30px 0 0 30px;
+	color: #47474B;
+}
+
+#banner p {
+	font: normal 16px/23px Heletica, arial;
+	display: block;
+	width: 360px;
+	margin: 30px 0 0 30px;
+	color: #686868;
+}
+
+#button {
+	display: inline-block;
+	background:-webkit-linear-gradient(#38a6d7 0%, #2e9cd2 100%);
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, .3);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, .3);
+	border: 1px solid #2e9cd2;
+	border-radius: 200px;
+	padding: 10px 40px;
+	color: white;
+	font-family: arial;
+}
+
+#bBorder {
+	background: #F2F2F2;
+	border-radius: 200px;
+	display: inline-block;
+	margin: 30px 30px;
+	padding: 5px;
+	border: 1px solid #ECECEC;
+}
+
+
+#button:hover {
+	background:-webkit-linear-gradient(#10b4ff 0%, #04a9fb 100%);
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, .3);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, .3);
+	border: 1px solid #2e9cd2;
+	border-radius: 200px;
+	padding: 10px 40px;
+	color: white;
+	font-family: arial;
+}
+
+#bottom {
+	overflow: hidden;
+	background: #fff;
+}
+
+/**** Menu Link Hovers ****/
+#aside ul li a:link, #aside ul li a:visited {
+	padding: 13px 0 13px 60px;
+	text-decoration: none;
+	color: #585858;
+	width: 140px;
+}
+
+#aside ul li a:hover{
+	color: #585858;
+}
+
+
+a#home {
+	background:  url('../images/aside-icons.png') 5px 8px no-repeat;
+}
+a#home:hover {
+	background:  url('../images/aside-icons.png') 5px 8px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+a#outlook {
+	background:  url('../images/aside-icons.png') 5px -73px no-repeat;
+}
+
+a#outlook:hover {
+	background:  url('../images/aside-icons.png') 5px -73px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+a#webmail {
+	background:  url('../images/aside-icons.png') 5px -155px no-repeat;
+}
+
+a#webmail:hover {
+	background:  url('../images/aside-icons.png') 5px -155px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+a#meeting {
+	background:  url('../images/aside-icons.png') 5px -236px no-repeat;
+}
+
+a#meeting:hover {
+	background:  url('../images/aside-icons.png') 5px -236px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+
+
+/***  Product layout***/
+#product {
+	overflow: hidden;
+	border-top: 1px solid #efefef;
+	margin-top: -1px;
+}
+
+.middle {
+	margin: 20px 26px 0 !important;
+}
+
+#product h4 {
+	font-family: OpenSansRegular;
+	color: #db722b;
+	font-size: 15px;
+	margin: 13px 0;
+}
+
+#product img {
+	display: block;
+	margin: 0 auto;
+}
+
+#product h5 {
+	font-family: arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #259db7;
+	margin: 13px 0;
+}
+
+#product p {
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0 10px;
+	color: #404040;
+	line-height: 1.3em;
+}
+
+#section a {
+	display: inline-block;
+	float: left;
+	width: 220px;
+	height: 290px;
+	background: #fbfbfb;
+	border: 1px solid #f1f1f1;
+	margin: 20px 0 0;
+	text-align: center;
+	text-decoration: none;
+	}
+
+
+#section a:hover {
+	background: url('../images/bottom-hv.gif') bottom left repeat-x #fbfbfb;
+
+}
+

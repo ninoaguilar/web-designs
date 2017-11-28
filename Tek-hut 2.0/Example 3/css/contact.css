@@ -1,0 +1,97 @@
+
+/*** contact ***/
+
+.contact {
+	width: 400px !important;
+	margin: 0 30px 0 !important;
+}
+
+legend {
+	margin-top: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+input, textarea {
+	padding: 9px;
+	margin: 0 0 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #bbb;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border:1px solid #3fbaef;
+	background: #fff;
+	color: #3c3c3c;
+}
+
+textarea {
+	max-width: 380px;
+	min-width: 380px;
+	max-height: 350px;
+}
+
+#name {
+	width: 380px;
+}
+
+#email {
+	width: 230px;
+	float: left;
+}
+
+#phone {
+	width: 120px;
+}
+
+#pNumber {
+	float: left;
+}
+
+#eMail {
+	float: left;
+	margin-right: 10px;
+}
+
+#submit {
+	background: #36b5ec;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #20a3dc;
+	padding: 10px 20px;
+}
+
+#cInfo {
+	width: 240px;
+	float: left;
+	margin-left: 10px;
+	color: #212121;
+}
+
+
+#cInfo h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#cInfo h5 {
+	font: bold 16px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-bottom: 1px;
+}
+
+#cInfo a:link, #cInfo a:visited {
+	color: #53b2e6;
+	text-decoration: none;
+}
+
+#cInfo a:hover {
+	text-decoration: underline;
+}
+
+#cInfo a:active {
+	color: #ff6633;
+}

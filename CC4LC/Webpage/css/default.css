@@ -1,0 +1,260 @@
+/* Copyright CC4LC - County Coalition 4 Lincoln County */
+
+
+body {
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+	width: 978px;
+	margin: 0 auto;
+	padding: 0 12px;
+	overflow: hidden;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	color: #415f8d;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #d24444;
+}
+
+
+/* ----- Header Styles ----- */
+
+#header {
+	display: block;
+	height: 70px;
+	background-color: #d24444;
+	border-bottom: 1px solid #d26a6b;
+}
+
+#header ul {
+	float: right;
+	margin: 20px 0;
+}
+
+#header ul li {
+	float: left;
+	font: 12px arial, sans-serif;
+	color: #fff;
+	padding: 7px 9px;
+	border: 1px solid #d24444;
+	margin: 0 2px 0 0;
+}
+
+#header ul li:hover {
+	background: #bd3737;
+	border: 1px solid #d55252;
+}
+
+#header ul li:active {
+	background: #ad3232;
+	border: 1px solid #d55252;
+}
+
+span#logo {
+	display: block;
+	float: left;
+	width: 277px;
+	height: 48px;
+	background: url('../images/logo.png') center no-repeat;
+	padding: 11px 0;
+}
+
+#header p {
+	color: rgba(0, 0, 0, 0.53);
+	position: relative;
+	top: -19px;
+	left: 123px;
+	font: 14px "Times New Roman";
+	text-shadow: 0 1px rgba(255, 255, 255, .2);
+	padding: 0;
+	margin: 0;
+}
+/* ----- End Homepage Banner Styles ----- */
+
+
+	
+/*----- Homepage Banner Styles -----*/
+#banner {
+	height: 300px;
+	border-top: 1px solid #1a263a;
+	border-bottom: 1px solid #7d93b2;
+	background: url('../images/banner.jpg') top center no-repeat #415f8d;
+}
+
+#banner img {
+	position: relative;
+	left: -10px;
+	margin: 0;
+}	
+/*----- End Homepage Banner Styles -----*/
+
+
+
+/* ----- Blue Strip ---- */
+#blueBG {
+	height: 60px;
+	border-top: 1px solid #1a263a;
+	border-bottom: 1px solid #7d93b2;
+	background: #415f8d;
+}
+
+
+/* ----- Side Navigation Styles ---*/
+
+#aside {
+	width: 190px;
+	float: left;
+}
+
+#links {
+	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: block;
+	padding: 0 5px 5px;
+	text-transform: uppercase;
+	color: #363636;
+	font-weight: bold;
+	}
+
+#aside a {
+	display: block;
+	padding: 10px 5px;
+	color: #565656;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#active, #active:hover {
+	background: #f2f2f2 !important; 
+	color: #565656;
+	border-right: 4px solid #415f8d;
+}
+
+#aside a:hover {
+	background: #fff;
+	color: #565656;
+	background: url('../images/arrow.png') right center no-repeat;
+}
+
+/* ----- Main Bottom Section Styles ---- */
+#bottom {
+	overflow: hidden;
+	background: #fff;
+	padding: 20px 0;
+}
+
+#section {
+	float: left;
+	width: 725px;
+	padding-left: 30px;
+	border-left: 1px solid #e5e5e5;
+}
+
+h1 {
+	font-size: 26px;
+	font-weight: normal;
+	padding: 14px 0px;
+	color: #fff;
+	text-shadow: 0px 1px rgba(0,0,0,1);
+}
+
+h3:first-child {
+	margin-top: 0px;
+}
+
+h3 {
+	font: 22px Georgia, "Times New Roman", Times, serif;
+	color: #212121;
+	margin-top: 30px;
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 5px;
+}
+
+#noBorder {
+	border-bottom: none;
+	padding: 0;
+}
+
+h5 {
+	font-size: 13px;
+	font-weight: normal;
+	font-style: italic;
+	padding: 5px 0 7px;
+	border-bottom: 1px solid #dcdcdc;
+	color: #515151;
+}
+
+p {
+	font: 15px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #212121;
+	padding: 13px 0 0;
+}
+
+p.first-child {
+	padding-top: 10px;
+}
+
+p.quote {
+	font-style: italic;
+	padding: 5px 15px;
+	border-left: 3px solid #4388AD;
+	margin: 20px auto 0;
+	width: 600px;
+}
+
+h4 {
+	font-size: 17px;
+	font-weight: normal;
+	color: #d24444;
+	margin: 10px 0 0;
+}
+
+ul.list {
+	list-style-type: square;
+	font-size: 14px;
+	line-height: 1.3em;
+	margin: 3px 0 0 30px;
+}
+
+ul.list li {
+	padding: 1px 0 0;
+}
+
+.poster {
+	margin: 20px 20px 0 0;
+}
+
+.poster:hover {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(65, 95, 141, .9);
+	box-shadow: 0px 0px 5px 0px rgba(65, 95, 141, .9);
+}
+
+
+/* ----- Footer Styles ----- */
+#footer {
+	clear: both;
+	border-top: 1px solid #e5e5e5;
+	background: url('../images/footer.png') no-repeat;
+	background-position: 0 15px;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+
+#footer p {
+	font-size: 11px;
+	text-align: right;
+	line-height: 15px;
+	color: #5c5c5c;
+	display: inline-block;
+	float: right;
+}

@@ -1,0 +1,40 @@
+#jsddm li ul {	
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 9999;
+	visibility: hidden;
+	background: #fff;
+	border-top: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+		
+#jsddm li ul li {	
+	float: none;
+	display: inline;
+}
+
+#jsddm li ul li a {	
+	width: auto;
+	background: #fff;
+	color: #686868;
+	border: none;
+	font-size: 13px;
+	text-transform: capitalize;
+	font-weight: normal;
+
+}
+
+#jsddm li ul li a:hover {	
+	background: #fff;
+	color: #53b2e6;
+	border: none;
+	text-shadow: none;
+}
+
+#jsddm li ul li a:active {
+	color: #e68318;
+}
+

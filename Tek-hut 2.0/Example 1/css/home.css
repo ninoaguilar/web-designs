@@ -1,0 +1,225 @@
+
+#header {
+	border-bottom: 1px solid #40bdf3;
+}
+
+/**** #banner ****/
+#banner {
+	overflow: hidden;
+	background: #00b2ff;
+	background-size: 100px 100px;
+	border-top: 1px solid #58cdff;
+	border-bottom: 1px solid #58cdff;	
+}
+
+span#team {
+	width: 100%;
+	text-align: center;
+	margin: 25px auto -25px;;
+	font-family: OpenSansLight;
+	font-size: 40px;
+	color: #fff;
+	display: block;	
+}
+
+.b_items {
+	overflow: hidden;
+	width: 220px;
+	margin: 50px 10px 50px;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+
+
+#wifi {
+	background: url('../images/wifi.png') top right no-repeat;
+	background-position: -220px 0px;
+}
+
+#wifi:hover {
+	display: inline-block;
+	background: url('../images/wifi.png') top left no-repeat;
+	background-position: 0px 0px;
+}
+
+#recycle {
+	background: url('../images/recycle.png') top left no-repeat;
+	background-position: -220px 0px;
+}
+
+#recycle:hover {
+	display: inline-block;
+	background: url('../images/recycle.png') top left no-repeat;
+	background-position: 0px 0px;
+}
+
+#lightspeed {
+	background: url('../images/lightspeed.png') top left no-repeat;
+	background-position: -220px 0px;
+}
+
+#lightspeed:hover {
+	background: url('../images/lightspeed.png') top left no-repeat;
+	background-position: 0px 0px;
+}
+
+#exchange {
+	background: url('../images/exchange.png') top left no-repeat;
+	background-position: -220px 0px;
+}
+
+#exchange:hover {
+	background: url('../images/exchange.png') top left no-repeat;
+	background-position: 0px 0px;
+}
+
+.b_items h2 {
+	font-family: OpenSansSemibold, sans-serif;
+	font-size: 17px;
+	margin-top: 230px;
+}
+
+.b_items p {
+	font-family: OpenSansRegular;
+	color: #DFF3FF;
+	line-height: 18px;
+	margin: 10px 0 20px;
+	font-size: 13px;
+	height: 60px;
+}
+
+span.button a:link, span.button a:visited {
+	display: inline-block;
+	padding: 5px 25px 7px;
+	background: #fff;
+	color: #66aaf6;
+	font-size: 15px;
+	font-family: OpenSansSemibold;
+	border: 3px double #fff;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+span.button a:hover {
+	color: #fa8b41;
+	border: 3px double #fff;
+}
+
+span.button a:active {
+	color: #fa8b41;
+	border: 3px double #a9d8f5;
+}
+
+
+#bottom {
+	overflow: hidden;
+	background: #fff;
+	border-top: 1px solid #40bdf3;
+}
+
+/**** Menu Link Hovers ****/
+#aside ul li a:link, #aside ul li a:visited {
+	padding: 13px 0 13px 60px;
+	text-decoration: none;
+	color: #585858;
+	width: 160px;
+}
+
+#aside ul li a:hover{
+	color: #585858;
+}
+
+
+a#home {
+	background:  url('../images/aside-icons.png') 5px 8px no-repeat;
+}
+a#home:hover {
+	background:  url('../images/aside-icons.png') 5px 8px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+a#outlook {
+	background:  url('../images/aside-icons.png') 5px -73px no-repeat;
+}
+
+a#outlook:hover {
+	background:  url('../images/aside-icons.png') 5px -73px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+a#webmail {
+	background:  url('../images/aside-icons.png') 5px -155px no-repeat;
+}
+
+a#webmail:hover {
+	background:  url('../images/aside-icons.png') 5px -155px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+a#meeting {
+	background:  url('../images/aside-icons.png') 5px -236px no-repeat;
+}
+
+a#meeting:hover {
+	background:  url('../images/aside-icons.png') 5px -236px no-repeat, url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+
+
+/***  Product layout***/
+#product {
+	overflow: hidden;
+	border-top: 1px solid #efefef;
+	margin-top: -1px;
+}
+
+.middle {
+	margin: 20px 26px 0 !important;
+}
+
+#product h4 {
+	font-family: OpenSansRegular;
+	color: #db722b;
+	font-size: 15px;
+	margin: 13px 0;
+}
+
+#product img {
+	display: block;
+	margin: 0 auto;
+}
+
+#product h5 {
+	font-family: arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #259db7;
+	margin: 13px 0;
+}
+
+#product p {
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0 10px;
+	color: #404040;
+	line-height: 1.3em;
+}
+
+#section a {
+	display: inline-block;
+	float: left;
+	width: 220px;
+	height: 290px;
+	background: #fbfbfb;
+	border: 1px solid #f1f1f1;
+	margin: 20px 0 0;
+	text-align: center;
+	text-decoration: none;
+	}
+
+
+#section a:hover {
+	background: url('../images/bottom-hv.gif') bottom left repeat-x #fbfbfb;
+
+}
+

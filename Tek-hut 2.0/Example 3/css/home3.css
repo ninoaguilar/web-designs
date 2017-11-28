@@ -1,0 +1,264 @@
+
+/**** #banner ****/
+#banner {
+	height: 410px;
+	overflow: hidden;
+	/*background: url('../images/banner.jpg') right bottom no-repeat #fff;*/
+	clear: both;
+}
+
+#banner img {
+	float: right;
+	margin-top: 15px;
+}
+
+#banner h1 {
+	font: lighter 40px/50px OpenSansLight, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #303030;
+	display: block;
+	width: 360px;
+	margin: 40px 0 0;
+	float: left;
+	clear: left;
+}
+
+#banner p {
+	font-size: 16px;
+	line-height: 23px;
+	display: block;
+	width: 400px;
+	margin: 10px 0 0;
+	color: #686868;
+	float: left;
+	clear: left;
+}
+
+#button {
+	display: inline-block;
+	background: #169fe6;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 12px 0;
+	width: 170px;
+	margin-top: 40px;
+	border-bottom: 3px solid #1c7cb0;
+}
+
+
+#button:hover {
+	background: #0e93d8;
+}
+
+#button:active {
+	margin-top: 43px;
+	border-bottom: none;
+}
+
+/**** Menu Link Hovers ****/
+#aside ul li a:link, #aside ul li a:visited {
+	padding: 13px 0 13px 60px;
+	text-decoration: none;
+	color: #585858;
+	width: 140px;
+}
+
+#aside ul li a:hover{
+	color: #585858;
+		background: url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+
+/***  Product layout***/
+.bottom {
+	overflow: hidden;
+	background: #fff;
+	padding-top: 30px;
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 50px;
+	border-top: 1px solid #ebebeb;
+}
+
+.bottom a {
+	text-decoration: none;
+}
+
+.offer {
+	text-align: center;
+	clear: both;
+	text-transform: capitalize;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", OpenSansLight, sans-serif;
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 20px;
+	color: #484848;
+}
+
+h6 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", OpenSansLight, sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 5px;
+	padding-bottom: 35px;
+	color: #999;
+}
+
+div.firstchild {
+	margin-left: 0;
+}
+
+.service {
+	display: inline-block;
+	float: left;
+	width: 212px;
+	height: 260px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-left: 40px;
+}
+
+.service:hover {
+	background: #FDFDFD;
+	border: 1px solid #E7E7E7;
+}
+
+.service img, .product img {
+	display: block;
+	margin: 20px auto;
+}
+
+.service h4, .product h4 {
+	font-weight: bold;
+	font-size: 15px;
+	color: #5a5758;
+	margin: 30px 0 15px;
+}
+
+.service p {
+	font-size: 14px;
+	margin: 3px 0;
+	color: #3c3c3c;
+}
+
+.product {
+	display: inline-block;
+	float: left;
+	width: 180px;
+	text-align: center;
+	padding: 0 20px 20px;
+	margin-left: 30px;
+	height: 285px;
+	border: 1px solid #f0f0f0;
+}
+
+.product h2 {
+	font-size: 20px;
+	color: #4e4e4e;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #3fbaef;
+	z-index: 100;
+	display: inline-block;
+	position: relative;
+}
+
+.product h4 {
+	color: #5a5758;
+	font-size: 14px;
+	margin: 13px 0;
+	text-decoration: none;
+}
+
+
+.product h5 {
+	font-size: 14px;
+	color: #169fe6;
+	margin: 10px 0;
+}
+
+.product p {
+	font-size: 12px;
+	padding: 0 10px;
+	color: #404040;
+	line-height: 1.3em;
+}
+
+.product:hover {
+	text-decoration: none;
+	border: 1px solid #a5daf5;
+}
+
+
+#preFooter {
+	border-top: 1px solid #ebebeb;
+	margin-bottom: 40px;
+}
+
+#third {
+	width: 306px;
+	float: left;
+}
+
+#third h4, #cTest h4 {
+	color: #484848;
+	font-size: 21px;
+	font-weight: bold;
+	margin: 0 0 22px;
+	padding-top: 40px;
+}
+
+#third p {
+	font-size: 15px;
+	padding: 21px 0 21px 10px;
+	color: #404040;
+	float: left;
+}
+
+
+/** calender **/
+
+#date {
+	float: left;
+	color: #434343;
+	border-right: 1px solid #f0f0f0;
+	padding: 3px 15px 3px 0;
+}
+#month, #year {
+	display: block;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#day {
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	margin: -3px 0;
+}
+
+
+
+/** Customer Testimonials **/
+
+#cTest {
+	float: left;
+	width: 636px;
+	border-left: 1px solid #e8e8e8;
+	padding:0 0 30px 35px;
+}
+
+#quote {
+	line-height: 22px;
+	font-size: 15px;
+	color: #606060;
+}
+
+#cTest span p {
+	font-size: 13px;
+	color: #484848;
+	line-height: 18px;
+	margin-top: 20px;
+}

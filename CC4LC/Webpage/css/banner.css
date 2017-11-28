@@ -1,0 +1,12 @@
+#banner {
+	height: 300px;
+	border-top: 1px solid #1a263a;
+	border-bottom: 1px solid #7d93b2;
+	background: url('../images/banner.jpg') top center no-repeat #415f8d;
+}
+
+#banner img {
+	position: relative;
+	left: -10px;
+	margin: 0;
+}

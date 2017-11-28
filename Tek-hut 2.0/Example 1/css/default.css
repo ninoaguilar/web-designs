@@ -1,0 +1,240 @@
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	font-family: OpenSansRegular, Arial, Helvetica, Sans-serif;
+	-webkit-font-smoothing: antialiased;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+#header {
+	display: block;
+	height: 80px;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+#header span {
+	display: inline-block;
+	width: 250px;
+	height: 44px;
+	text-indent: -9999px;
+	background: url('../images/logo.png') no-repeat top left;
+	background-size: 250px 44px;
+	margin: 18px 0;
+}
+
+#header ul {
+	float: right;
+}
+
+#header ul li {
+	float: left;
+	height: 80px;
+}
+
+#header ul li a:link, #header ul li a:visited {
+	font-family: OpenSansRegular,;
+	font-size: 14px;
+	padding: 30px 14px 28px;
+	color: #797979;
+	border-top: 3px solid transparent;
+	text-shadow: 0px 1px 0px #fff;
+        filter: dropshadow(color=#fff, offx=0, offy=1);
+	text-decoration: none;
+	display: inline-block;
+}
+
+#header ul li a#active {
+	background: #f8f8f8;
+	border-top: 3px solid #32a2d5;
+}
+
+#header ul li a:hover {
+	background: #f8f8f8;
+	border-top: 3px solid #32a2d5;
+}
+
+
+/*** page ***/
+#page span {
+	font: 23px OpenSansLight;
+	color: #787878;
+	display: block;
+	padding: 10px 0 10px 10px;
+}
+
+/**** bottom ****/
+#bottom {
+	overflow: hidden;
+	background: #fff;
+	border-top: 1px solid #f1f1f1;
+	padding: 30px 0;
+}
+
+#aside {
+	float: left;
+	width: 220px;
+	overflow: hidden;
+}
+
+#aside h3 {
+	font-family: OpenSansLight, sans-serif;
+	font-size: 20px;
+	color: #4e4e4e;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #3fbaef;
+	display: inline-block;
+	z-index: 100;
+	position: relative;
+}
+
+#aside ul {
+	border-top: 1px solid #efefef;
+	margin-top: -1px;
+	z-index: 1;
+}
+
+#aside ul li {
+	font-size: 14px;
+}
+
+#active2 {
+	background: url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+#aside ul li a:link, #aside ul li a:visited {
+	display: inline-block;
+	padding: 13px 0 13px 10px;
+	text-decoration: none;
+	color: #585858;
+	width: 210px;
+}
+
+.sideLinks li a:hover {
+	color: #585858;
+	background: url('../images/aside-hover.gif') right center no-repeat #f8f8f8;
+}
+
+
+#aside ul li a:active {
+	color: #66aaf6;
+}
+
+
+/**** section ****/
+
+#section {
+	float: left;
+	font-family: OpenSansLight, sans-serif;
+	margin-left: 20px;
+	width: 720px;
+}
+
+#section h2 {
+	font-size: 100%;
+	font-size: 20px;
+	color: #4e4e4e;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #3fbaef;
+	z-index: 100;
+	display: inline-block;
+	position: relative;
+}
+
+/** article **/
+.article {
+	width:100%;
+	border-top: 1px solid #efefef;
+	margin-top: -1px;
+	z-index: 1;
+	padding: 10px 0;
+}
+
+
+.article h4 {
+	font: 15px helvetica, arial, sans-serif, bold;
+	color: #ea6124;
+	padding: 0 0 5px;
+	
+}
+
+.article p {
+	font: 13px helvetica, Arial, sans-serif;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+.article ul {
+	list-style-type: circle;
+}
+
+.article ul li {
+	font: 13px helvetica, Arial, sans-serif;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.2em;
+	margin: 0 10px 10px 60px;
+	
+}
+
+
+
+
+
+.third {
+	width: 300px;
+	margin-top: 40px;
+	padding: 0 10px;
+	float: left;
+}
+
+.third h3 {
+	font-family: OpenSansLight, sans-serif;
+	border-bottom: 2px solid #3fbaef;
+	padding-bottom: 2px;
+	display: inline-block;
+	color: #4e4e4e;
+}
+
+.third p {
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 13px;
+	border-top: 1px solid #efefef;
+	margin-top: -1px;
+	padding: 7px 0 0 0;
+	line-height: 1.34em;
+	color: #404040;
+}
+
+
+#footer {
+	border-top: 1px solid #efefef;
+	padding: 10px 0;
+	text-align: center;
+	font: 12px Arial, sans-serif;
+	color: #404040;
+}
+
+#footer ul, #footer li {
+	display: inline;
+	padding: 0 3px 0;	
+}
+
+#footer p {
+	padding-top: 6px;
+}
+
+#footer a:link, #footer a:visited {
+	color: #404040;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+

@@ -25,7 +25,7 @@ body {
 	width: 175px;
 	height: 52px;
 	text-indent: -9999px;
-	background: url('../logo@2x.png') no-repeat top left;
+	background: url('../images/logo@2x.png') no-repeat top left;
 	background-size: 175px 52px;
 	margin: 20px 0 0;
 }
